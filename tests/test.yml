@@ -1,0 +1,10 @@
+--- 
+- hosts: all 
+  gather_facts: yes
+  tasks: 
+  - include_role: 
+      name: coadunate.devtools
+
+  - include_role: 
+      name: coadunate.devtools 
+
